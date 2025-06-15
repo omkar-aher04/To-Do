@@ -231,9 +231,10 @@ body {
     width: 100%;
   }
   .parent {
-    width: 40vh;
-    /* height: 90px; */
-  }
+  width: 90%;  /* ✅ Use percentage for better responsiveness */
+  max-width: 400px;
+  margin: auto;
+}
   .task-item {
     margin-left: 30px;
     margin-bottom: 10px;
