@@ -231,7 +231,8 @@ body {
     width: 100%;
   }
   .parent {
-    width: 35vh;
+    width: 40vh;
+    /* height: 90px; */
   }
   .task-item {
     margin-left: 30px;
